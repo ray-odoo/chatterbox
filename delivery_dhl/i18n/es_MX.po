@@ -1,0 +1,118 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * delivery_dhl
+#
+# Translators:
+# David Hernandez <davidhernandez.ctam@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo 9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 07:39+0000\n"
+"PO-Revision-Date: 2016-08-05 18:37+0000\n"
+"Last-Translator: David Hernandez <davidhernandez.ctam@gmail.com>\n"
+"Language-Team: Spanish (Mexico) (http://www.transifex.com/odoo/odoo-9/"
+"language/es_MX/)\n"
+"Language: es_MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_region_code__ap
+msgid "Asia Pacific"
+msgstr "Asia Pacifico"
+
+#. module: delivery_dhl
+#: model:ir.model.fields,field_description:delivery_dhl.field_product_packaging__package_carrier_type
+msgid "Carrier"
+msgstr "Portador"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_package_dimension_unit__c
+msgid "Centimeters"
+msgstr "Centímetros"
+
+#. module: delivery_dhl
+#: model:ir.model.fields,help:delivery_dhl.field_delivery_carrier__dhl_dutiable
+msgid "Check this if your package is dutiable."
+msgstr "Compruebe esto si su paquete está sujeto a imposición."
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__d
+msgid "D - Express Worldwide"
+msgstr "D - Expreso En todo el Mundo"
+
+#. module: delivery_dhl
+#: model_terms:ir.ui.view,arch_db:delivery_dhl.view_delivery_carrier_form_with_provider_dhl
+msgid "DHL Configuration"
+msgstr "Configuración DHL"
+
+#. module: delivery_dhl
+#: code:addons/delivery_dhl/models/dhl_request.py:0
+#, python-format
+msgid "DHL Site ID is missing, please modify your delivery method settings."
+msgstr ""
+"ID Sitio DHL no existe, por favor modifique su configuración del método de "
+"entrega."
+
+#. module: delivery_dhl
+#: code:addons/delivery_dhl/models/dhl_request.py:0
+#, python-format
+msgid "DHL password is missing, please modify your delivery method settings."
+msgstr ""
+"Falta contraseña de DHL, por favor, modifique la configuración del método de "
+"entrega"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_region_code__eu
+msgid "Europe"
+msgstr "Europa"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_package_dimension_unit__i
+msgid "Inches"
+msgstr "Pulgadas"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_package_weight_unit__k
+msgid "Kilograms"
+msgstr "Kilogramos"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__n
+msgid "N - Domestic Express"
+msgstr "N - Rapidez domestica"
+
+#. module: delivery_dhl
+#: model:ir.model.fields,field_description:delivery_dhl.field_delivery_carrier__dhl_package_dimension_unit
+msgid "Package Dimension Unit"
+msgstr "Dimensión de la unidad del paquete"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_package_weight_unit__l
+msgid "Pounds"
+msgstr "Libras"
+
+#. module: delivery_dhl
+#: code:addons/delivery_dhl/models/dhl_request.py:0
+#, python-format
+msgid ""
+"The address of your company warehouse is missing or wrong (Missing "
+"field(s) :\n"
+" %s)"
+msgstr ""
+"La dirección de su almacén de la empresa se encuentra o está mal (campo (s) "
+"Falta: \n"
+"%s)"
+
+#. module: delivery_dhl
+#: code:addons/delivery_dhl/models/dhl_request.py:0
+#, python-format
+msgid ""
+"The estimated price cannot be computed because the weight of your product is "
+"missing."
+msgstr ""
+"El precio estimado no se puede calcular porque el peso de su producto no se "
+"encuentra."

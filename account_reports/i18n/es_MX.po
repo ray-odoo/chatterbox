@@ -1,0 +1,1041 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * account_reports
+#
+# Translators:
+# AleEscandon <alejandra.escandon@jarsa.com.mx>, 2016
+# David Hernandez <davidhernandez.ctam@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo 9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-27 13:47+0000\n"
+"PO-Revision-Date: 2016-07-13 19:00+0000\n"
+"Last-Translator: AleEscandon <alejandra.escandon@jarsa.com.mx>\n"
+"Language-Team: Spanish (Mexico) (http://www.transifex.com/odoo/odoo-9/"
+"language/es_MX/)\n"
+"Language: es_MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_total_assets0
+msgid "ASSETS"
+msgstr "BIENES"
+
+#. module: account_reports
+#: model:ir.model,name:account_reports.model_account_report
+#: model_terms:ir.ui.view,arch_db:account_reports.view_account_financial_report_form
+#: model_terms:ir.ui.view,arch_db:account_reports.view_account_financial_report_tree
+msgid "Account Report"
+msgstr "Informe de la cuenta"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_aged_partner_balance.py:0
+#: model:ir.actions.client,name:account_reports.action_account_report_ap
+#: model:ir.model,name:account_reports.model_account_aged_payable
+#: model:ir.ui.menu,name:account_reports.menu_action_account_report_aged_payable
+#, python-format
+msgid "Aged Payable"
+msgstr "Histórico de Pagos"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.account_reports_journal_dashboard_kanban_view
+msgid "Aged Payables"
+msgstr "Pagos Históricos"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_aged_partner_balance.py:0
+#: model:ir.actions.client,name:account_reports.action_account_report_ar
+#: model:ir.model,name:account_reports.model_account_aged_receivable
+#: model:ir.ui.menu,name:account_reports.menu_action_account_report_aged_receivable
+#, python-format
+msgid "Aged Receivable"
+msgstr "Historico de Ingresos"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.account_reports_journal_dashboard_kanban_view
+msgid "Aged Receivables"
+msgstr "Histórico de Cuentas por Cobrar"
+
+#. module: account_reports
+#: model:ir.model.fields.selection,name:account_reports.selection__account_financial_html_report_line__show_domain__always
+msgid "Always"
+msgstr "Siempre"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_bank_reconciliation_report.py:0
+#, python-format
+msgid "Amount"
+msgstr "Importe"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.line_template
+msgid "Annotate"
+msgstr "Anotar"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_comparison
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_currency
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_date_filter
+msgid "Apply"
+msgstr "Aplicar"
+
+#. module: account_reports
+#: model:ir.model.fields.selection,name:account_reports.selection__account_financial_html_report_line__special_date_changer__to_beginning_of_period
+msgid "At the beginning of the period"
+msgstr "Al comienzo del período"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_avgcre0
+msgid "Average creditors days"
+msgstr "Días promedio de acreedores"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_avdebt0
+msgid "Average debtors days"
+msgstr "Días de Promedio de deudores"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_analytic_report.py:0
+#: code:addons/account_reports/models/account_cash_flow_report.py:0
+#: code:addons/account_reports/models/account_consolidated_journals.py:0
+#: code:addons/account_reports/models/account_general_ledger.py:0
+#: code:addons/account_reports/models/account_generic_tax_report.py:0
+#: code:addons/account_reports/models/account_partner_ledger.py:0
+#: model:ir.model.fields,field_description:account_reports.field_account_accounting_report__balance
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_partner__balance
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_payable__balance
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_receivable__balance
+#: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation__balance
+#, python-format
+msgid "Balance"
+msgstr "Saldo pendiente"
+
+#. module: account_reports
+#: model:account.financial.html.report,name:account_reports.account_financial_report_balancesheet0
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_balancesheet0
+#: model:ir.actions.client,name:account_reports.account_financial_html_report_action_2
+#: model:ir.actions.client,name:account_reports.action_account_report_bs
+#: model:ir.ui.menu,name:account_reports.account_financial_html_report_menu_2
+msgid "Balance Sheet"
+msgstr "Saldo pendiente"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_bank_reconciliation_report.py:0
+#: model:ir.actions.client,name:account_reports.action_account_report_bank_reconciliation
+#: model:ir.actions.client,name:account_reports.action_account_report_bank_reconciliation_with_journal
+#, python-format
+msgid "Bank Reconciliation"
+msgstr "Conciliación Bancaria"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_bank_view0
+msgid "Bank and Cash Accounts"
+msgstr "Banco y Cuentas de Efectivo"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report__date_range
+msgid "Based on date ranges"
+msgstr "Basado en un rango de datos"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_cash_flow_report.py:0
+#: model:ir.actions.client,name:account_reports.action_account_report_cs
+#: model:ir.ui.menu,name:account_reports.menu_action_account_report_cash_flow
+#, python-format
+msgid "Cash Flow Statement"
+msgstr "Estado de Flujos de Efectivo"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_cash_flow_report.py:0
+#, python-format
+msgid "Cash and cash equivalents, closing balance"
+msgstr "Efectivo y equivalentes de efectivo, balance de cierre"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_cash_flow_report.py:0
+#, python-format
+msgid "Cash flows from financing activities"
+msgstr "Flujos de efectivo de actividades de financiamiento"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_cash_flow_report.py:0
+#, python-format
+msgid "Cash flows from investing & extraordinary activities"
+msgstr "Flujos de efectivo de actividades de inversión y extraordinarias"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_cash_flow_report.py:0
+#, python-format
+msgid "Cash flows from operating activities"
+msgstr "Flujos de efectivo de actividades de explotación"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_cash_flow_report.py:0
+#, python-format
+msgid "Cash flows from unclassified activities"
+msgstr "Flujos de efectivo de actividades clasificadas"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_cash_flow_report.py:0
+#, python-format
+msgid "Cash in"
+msgstr "Efectivo en"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_cash_flow_report.py:0
+#, python-format
+msgid "Cash out"
+msgstr "Cobrar"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_cash_received0
+msgid "Cash received"
+msgstr "Efectivo recibido"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_cash_spent0
+msgid "Cash spent"
+msgstr "Efectivo gastado"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_cash_surplus0
+msgid "Cash surplus"
+msgstr "Los excedentes de tesorería"
+
+#. module: account_reports
+#: model:ir.model,name:account_reports.model_account_coa_report
+msgid "Chart of Account Report"
+msgstr "Gráfico del Informe de Cuenta"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__children_ids
+msgid "Children"
+msgstr "Hijos"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.view_account_financial_report_line_form
+msgid "Children Lines"
+msgstr "Líneas infantiles"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_closing_bank_balance0
+msgid "Closing bank balance"
+msgstr "Saldo final bancario"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__code
+msgid "Code"
+msgstr "Código"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_general_ledger.py:0
+#, python-format
+msgid "Communication"
+msgstr "Comunicación"
+
+#. module: account_reports
+#: model:ir.model,name:account_reports.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_accounting_report__company_id
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_partner__company_id
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_payable__company_id
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_receivable__company_id
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report__company_id
+#: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation__company_id
+#: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation_wizard__company_id
+#: model:ir.model.fields,field_description:account_reports.field_account_report_manager__company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.view_account_financial_report_line_form
+msgid "Computation"
+msgstr "Cálculo"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.view_account_financial_report_line_form
+msgid "Cosmetics"
+msgstr "Cosmeticos"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_cost_sales0
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_direct_costs0
+msgid "Cost of Revenue"
+msgstr "Costo de los Ingresos"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report__create_uid
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__create_uid
+#: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation_wizard__create_uid
+#: model:ir.model.fields,field_description:account_reports.field_account_report_footnote__create_uid
+#: model:ir.model.fields,field_description:account_reports.field_account_report_manager__create_uid
+#: model:ir.model.fields,field_description:account_reports.field_account_reports_export_wizard__create_uid
+#: model:ir.model.fields,field_description:account_reports.field_account_reports_export_wizard_format__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report__create_date
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__create_date
+#: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation_wizard__create_date
+#: model:ir.model.fields,field_description:account_reports.field_account_report_footnote__create_date
+#: model:ir.model.fields,field_description:account_reports.field_account_report_manager__create_date
+#: model:ir.model.fields,field_description:account_reports.field_account_reports_export_wizard__create_date
+#: model:ir.model.fields,field_description:account_reports.field_account_reports_export_wizard_format__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_consolidated_journals.py:0
+#: code:addons/account_reports/models/account_general_ledger.py:0
+#: code:addons/account_reports/models/account_partner_ledger.py:0
+#: code:addons/account_reports/models/account_report_coa.py:0
+#: code:addons/account_reports/wizard/multicurrency_revaluation.py:0
+#: model:ir.model.fields,field_description:account_reports.field_account_accounting_report__credit
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_partner__credit
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_payable__credit
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_receivable__credit
+#: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation__credit
+#, python-format
+msgid "Credit"
+msgstr "Haber"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_bank_reconciliation_report.py:0
+#: code:addons/account_reports/models/account_general_ledger.py:0
+#: model:ir.model.fields,field_description:account_reports.field_account_accounting_report__currency_id
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_partner__currency_id
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_payable__currency_id
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_receivable__currency_id
+#: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation__currency_id
+#, python-format
+msgid "Currency"
+msgstr "Dinero corriente"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_current_assets0
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_current_assets_view0
+msgid "Current Assets"
+msgstr "Activos Circulantes"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_current_liabilities0
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_current_liabilities1
+msgid "Current Liabilities"
+msgstr "Pasivo Circulante"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_ca_to_l0
+msgid "Current assets to liabilities"
+msgstr "El activo circulante a pasivo"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_comparison
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_date_filter
+msgid "Custom"
+msgstr "Personalizado"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_bank_reconciliation_report.py:0
+#: code:addons/account_reports/models/account_general_ledger.py:0
+#: model:ir.model.fields,field_description:account_reports.field_account_accounting_report__date
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_partner__date
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_payable__date
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_receivable__date
+#: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation__date
+#: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation_wizard__date
+#, python-format
+msgid "Date"
+msgstr "Fecha"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_comparison
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_date_filter
+msgid "Date :"
+msgstr "Fecha :"
+
+#. module: account_reports
+#: model:ir.model.fields,help:account_reports.field_account_move_line__next_action_date
+msgid ""
+"Date where the next action should be taken for a receivable item. Usually, "
+"automatically set when sending reminders through the customer statement."
+msgstr ""
+"Fecha en que se debe tomar la siguiente acción para un elemento de cobrar. "
+"Por lo general, establecer automáticamente al enviar recordatorios a través "
+"de la declaración de cliente."
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_comparison
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_date_filter
+msgid "Date:"
+msgstr "Fecha:"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_consolidated_journals.py:0
+#: code:addons/account_reports/models/account_general_ledger.py:0
+#: code:addons/account_reports/models/account_partner_ledger.py:0
+#: code:addons/account_reports/models/account_report_coa.py:0
+#: code:addons/account_reports/wizard/multicurrency_revaluation.py:0
+#: model:ir.model.fields,field_description:account_reports.field_account_accounting_report__debit
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_partner__debit
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_payable__debit
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_receivable__debit
+#: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation__debit
+#, python-format
+msgid "Debit"
+msgstr "Debe"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_depreciation0
+msgid "Depreciation"
+msgstr "Depreciación"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_account__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_accounting_report__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_partner__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_payable__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_receivable__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_analytic_report__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_bank_reconciliation_report__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_cash_flow_report__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_chart_template__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_coa_report__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_consolidated_journal__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_year_op__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_general_ledger__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_generic_tax_report__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_journal__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_move__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation_wizard__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_partner_ledger__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_report__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_report_footnote__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_report_manager__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_reports_export_wizard__display_name
+#: model:ir.model.fields,field_description:account_reports.field_account_reports_export_wizard_format__display_name
+#: model:ir.model.fields,field_description:account_reports.field_ir_actions_account_report_download__display_name
+#: model:ir.model.fields,field_description:account_reports.field_ir_module_module__display_name
+#: model:ir.model.fields,field_description:account_reports.field_mail_activity__display_name
+#: model:ir.model.fields,field_description:account_reports.field_mail_activity_type__display_name
+#: model:ir.model.fields,field_description:account_reports.field_res_company__display_name
+#: model:ir.model.fields,field_description:account_reports.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:account_reports.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Nombre desplegado"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__domain
+msgid "Domain"
+msgstr "Dominio"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_equity0
+msgid "EQUITY"
+msgstr "EQUIDAD"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_comparison
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_date_filter
+msgid "End Date :"
+msgstr "Fecha Final :"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_date_filter
+msgid "End of Last Financial Year"
+msgstr "Fin del último ejercicio"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_date_filter
+msgid "End of Last Month"
+msgstr "Fin del último Mes"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_date_filter
+msgid "End of Last Quarter"
+msgstr "Fin del último cuarto"
+
+#. module: account_reports
+#: model:account.financial.html.report,name:account_reports.account_financial_report_executivesummary0
+#: model:ir.actions.client,name:account_reports.account_financial_html_report_action_3
+#: model:ir.ui.menu,name:account_reports.account_financial_html_report_menu_3
+msgid "Executive Summary"
+msgstr "Resumen Ejecutivo"
+
+#. module: account_reports
+#. openerp-web
+#: code:addons/account_reports/static/src/xml/account_report_template.xml:0
+#: model:ir.model.fields,field_description:account_reports.field_account_move_line__expected_pay_date
+#, python-format
+msgid "Expected Payment Date"
+msgstr "Fecha de Pago Esperado"
+
+#. module: account_reports
+#: model:ir.model.fields,help:account_reports.field_account_move_line__expected_pay_date
+msgid ""
+"Expected payment date as manually set through the customer statement (e.g: "
+"if you had the customer on the phone and want to remember the date he "
+"promised he would pay)"
+msgstr ""
+"Fecha de pago prevista establece como manualmente a través de la cuenta de "
+"cliente (por ejemplo: si usted tuviera el cliente en el teléfono y quiere "
+"recordar la fecha que prometió que tendría que pagar) "
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_expenses0
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_expense0
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_less_expenses0
+msgid "Expenses"
+msgstr "Gastos"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__financial_report_id
+#: model:ir.model.fields,field_description:account_reports.field_account_report_manager__financial_report_id
+msgid "Financial Report"
+msgstr "Reporte Financiero"
+
+#. module: account_reports
+#: model:ir.actions.act_window,name:account_reports.action_account_financial_report_tree
+#: model:ir.ui.menu,name:account_reports.menu_account_financial_reports_tree
+msgid "Financial Reports"
+msgstr "Reportes Financieros"
+
+#. module: account_reports
+#: model:ir.model.fields.selection,name:account_reports.selection__account_financial_html_report_line__figure_type__float
+msgid "Float"
+msgstr "Número flotante"
+
+#. module: account_reports
+#: model:ir.model.fields.selection,name:account_reports.selection__account_financial_html_report_line__show_domain__foldable
+msgid "Foldable"
+msgstr "Plegable"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_report_manager__footnotes_ids
+msgid "Footnotes"
+msgstr "Pies de Páginas"
+
+#. module: account_reports
+#: model:ir.model.fields.selection,name:account_reports.selection__account_financial_html_report_line__special_date_changer__strict_range
+msgid "Force given dates for all accounts and account types"
+msgstr "Fechas de fuerza dado por todo concepto y tipos de cuenta"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__formulas
+msgid "Formulas"
+msgstr "Fórmulas"
+
+#. module: account_reports
+#: model:ir.model.fields.selection,name:account_reports.selection__account_financial_html_report_line__special_date_changer__from_beginning
+msgid "From the beginning"
+msgstr "Desde el principio"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_general_ledger.py:0
+#: model:ir.actions.client,name:account_reports.action_account_report_general_ledger
+#: model:ir.ui.menu,name:account_reports.menu_action_account_report_general_ledger
+#: model_terms:ir.ui.view,arch_db:account_reports.line_caret_options
+#, python-format
+msgid "General Ledger"
+msgstr "Contabilidad General"
+
+#. module: account_reports
+#: model:ir.model,name:account_reports.model_account_general_ledger
+msgid "General Ledger Report"
+msgstr "Reporte de Contabilidad General"
+
+#. module: account_reports
+#: model:ir.model,name:account_reports.model_account_generic_tax_report
+msgid "Generic Tax Report"
+msgstr "Reporte Generico de Impuesto"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_gross_profit0
+msgid "Gross profit"
+msgstr "Ganancia bruta"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__groupby
+msgid "Group by"
+msgstr "Grupo por"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_account__id
+#: model:ir.model.fields,field_description:account_reports.field_account_accounting_report__id
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_partner__id
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_payable__id
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_receivable__id
+#: model:ir.model.fields,field_description:account_reports.field_account_analytic_report__id
+#: model:ir.model.fields,field_description:account_reports.field_account_bank_reconciliation_report__id
+#: model:ir.model.fields,field_description:account_reports.field_account_cash_flow_report__id
+#: model:ir.model.fields,field_description:account_reports.field_account_chart_template__id
+#: model:ir.model.fields,field_description:account_reports.field_account_coa_report__id
+#: model:ir.model.fields,field_description:account_reports.field_account_consolidated_journal__id
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report__id
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__id
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_year_op__id
+#: model:ir.model.fields,field_description:account_reports.field_account_general_ledger__id
+#: model:ir.model.fields,field_description:account_reports.field_account_generic_tax_report__id
+#: model:ir.model.fields,field_description:account_reports.field_account_journal__id
+#: model:ir.model.fields,field_description:account_reports.field_account_move__id
+#: model:ir.model.fields,field_description:account_reports.field_account_move_line__id
+#: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation__id
+#: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation_wizard__id
+#: model:ir.model.fields,field_description:account_reports.field_account_partner_ledger__id
+#: model:ir.model.fields,field_description:account_reports.field_account_report__id
+#: model:ir.model.fields,field_description:account_reports.field_account_report_footnote__id
+#: model:ir.model.fields,field_description:account_reports.field_account_report_manager__id
+#: model:ir.model.fields,field_description:account_reports.field_account_reports_export_wizard__id
+#: model:ir.model.fields,field_description:account_reports.field_account_reports_export_wizard_format__id
+#: model:ir.model.fields,field_description:account_reports.field_ir_actions_account_report_download__id
+#: model:ir.model.fields,field_description:account_reports.field_ir_module_module__id
+#: model:ir.model.fields,field_description:account_reports.field_mail_activity__id
+#: model:ir.model.fields,field_description:account_reports.field_mail_activity_type__id
+#: model:ir.model.fields,field_description:account_reports.field_res_company__id
+#: model:ir.model.fields,field_description:account_reports.field_res_config_settings__id
+#: model:ir.model.fields,field_description:account_reports.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_extra_options
+msgid "Include Unposted Entries"
+msgstr "Incluir sin Contabilizar las Entradas"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_extra_options
+msgid "Include unposted entries"
+msgstr "Incluir si contabilizar las entradas"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_income0
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_totalincome0
+msgid "Income"
+msgstr "Ingreso"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_general_ledger.py:0
+#: code:addons/account_reports/models/account_partner_ledger.py:0
+#: code:addons/account_reports/models/account_report_coa.py:0
+#, python-format
+msgid "Initial Balance"
+msgstr "Balance inicial"
+
+#. module: account_reports
+#. openerp-web
+#: code:addons/account_reports/static/src/xml/account_report_template.xml:0
+#, python-format
+msgid "Insert foot note here"
+msgstr "Insertar nota de pie de página aquí"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_move_line__internal_note
+msgid "Internal Note"
+msgstr "Nota Interna"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__green_on_positive
+msgid "Is growth good when positive"
+msgstr "Es un buen crecimiento cuando es positiva"
+
+#. module: account_reports
+#: model:ir.model,name:account_reports.model_account_move_line
+msgid "Journal Item"
+msgstr "Apunte contable"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_liabilities_view0
+msgid "LIABILITIES"
+msgstr "PASIVO"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_date_filter
+msgid "Last Financial Year"
+msgstr "Último Año Fiscal"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_account____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_accounting_report____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_partner____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_payable____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_receivable____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_analytic_report____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_bank_reconciliation_report____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_cash_flow_report____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_chart_template____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_coa_report____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_consolidated_journal____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_year_op____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_general_ledger____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_generic_tax_report____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_journal____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_move____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_move_line____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation_wizard____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_partner_ledger____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_report____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_report_footnote____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_report_manager____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_reports_export_wizard____last_update
+#: model:ir.model.fields,field_description:account_reports.field_account_reports_export_wizard_format____last_update
+#: model:ir.model.fields,field_description:account_reports.field_ir_actions_account_report_download____last_update
+#: model:ir.model.fields,field_description:account_reports.field_ir_module_module____last_update
+#: model:ir.model.fields,field_description:account_reports.field_mail_activity____last_update
+#: model:ir.model.fields,field_description:account_reports.field_mail_activity_type____last_update
+#: model:ir.model.fields,field_description:account_reports.field_res_company____last_update
+#: model:ir.model.fields,field_description:account_reports.field_res_config_settings____last_update
+#: model:ir.model.fields,field_description:account_reports.field_res_partner____last_update
+msgid "Last Modified on"
+msgstr "Ultima modificacion realizada"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_date_filter
+msgid "Last Month"
+msgstr "Ultimo mes"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_date_filter
+msgid "Last Quarter"
+msgstr "Último Cuarto"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report__write_uid
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__write_uid
+#: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation_wizard__write_uid
+#: model:ir.model.fields,field_description:account_reports.field_account_report_footnote__write_uid
+#: model:ir.model.fields,field_description:account_reports.field_account_report_manager__write_uid
+#: model:ir.model.fields,field_description:account_reports.field_account_reports_export_wizard__write_uid
+#: model:ir.model.fields,field_description:account_reports.field_account_reports_export_wizard_format__write_uid
+msgid "Last Updated by"
+msgstr "Ultima actualizacion por"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report__write_date
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__write_date
+#: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation_wizard__write_date
+#: model:ir.model.fields,field_description:account_reports.field_account_report_footnote__write_date
+#: model:ir.model.fields,field_description:account_reports.field_account_report_manager__write_date
+#: model:ir.model.fields,field_description:account_reports.field_account_reports_export_wizard__write_date
+#: model:ir.model.fields,field_description:account_reports.field_account_reports_export_wizard_format__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización realizada"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__level
+msgid "Level"
+msgstr "Nivel"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report__line_ids
+msgid "Lines"
+msgstr "Líneas"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.view_account_financial_report_line_form
+msgid "Main Info"
+msgstr "Información Principal"
+
+#. module: account_reports
+#: model:ir.model,name:account_reports.model_ir_module_module
+msgid "Module"
+msgstr "Modulo"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_general_ledger.py:0
+#: model:ir.model.fields,field_description:account_reports.field_account_accounting_report__name
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_partner__name
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_payable__name
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_receivable__name
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report__name
+#: model:ir.model.fields,field_description:account_reports.field_account_multicurrency_revaluation__name
+#: model:ir.model.fields,field_description:account_reports.field_account_reports_export_wizard_format__name
+#, python-format
+msgid "Name"
+msgstr "Nombre"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_net_assets0
+msgid "Net assets"
+msgstr "Red de Activos"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_cash_flow_report.py:0
+#, python-format
+msgid "Net increase in cash and cash equivalents"
+msgstr "Aumento neto de efectivo y equivalentes de efectivo"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_npmargin0
+msgid "Net profit margin (net profit / income)"
+msgstr "Margen de beneficio neto (beneficio neto / renta)"
+
+#. module: account_reports
+#: model:ir.model.fields.selection,name:account_reports.selection__account_financial_html_report_line__show_domain__never
+msgid "Never"
+msgstr "Nunca"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_move_line__next_action_date
+msgid "Next Action Date"
+msgstr "Fecha próxima acción"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_comparison
+msgid "No Comparison"
+msgstr "Sin Comparación"
+
+#. module: account_reports
+#: model:ir.model.fields.selection,name:account_reports.selection__account_financial_html_report_line__figure_type__no_unit
+msgid "No Unit"
+msgstr "Sin Unidad"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.filter_info_template
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_ir_filters
+msgid "None"
+msgstr "Ninguno"
+
+#. module: account_reports
+#: model:ir.model.fields,help:account_reports.field_account_move_line__internal_note
+msgid ""
+"Note you can set through the customer statement about a receivable journal "
+"item"
+msgstr ""
+"Nota Se puede obtener a través de la cuenta de cliente acerca de un artículo "
+"de diario por cobrar"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_comparison
+msgid "Number of periods :"
+msgstr "Número de periodos :"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_partner__period5
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_payable__period5
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_receivable__period5
+msgid "Older"
+msgstr "Viejo"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_other_income0
+msgid "Other Income"
+msgstr "Otra entrada"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__parent_id
+msgid "Parent"
+msgstr "Padre"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_analytic_report.py:0
+#: code:addons/account_reports/models/account_general_ledger.py:0
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_partner__partner_id
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_payable__partner_id
+#: model:ir.model.fields,field_description:account_reports.field_account_aged_receivable__partner_id
+#, python-format
+msgid "Partner"
+msgstr "Partner"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.filter_info_template
+msgid "Partners:"
+msgstr "Socios:"
+
+#. module: account_reports
+#: model:ir.model.fields.selection,name:account_reports.selection__account_financial_html_report_line__figure_type__percents
+msgid "Percents"
+msgstr "Porcentajes"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_fixed_assets_view0
+msgid "Plus Fixed Assets"
+msgstr "Plus de Activos Fijos"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_non_current_assets_view0
+msgid "Plus Non-current Assets"
+msgstr "Más los activos no corrientes"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_extra_options
+msgid "Posted Entries Only"
+msgstr "Sólo las entradas publicadas"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_prepayements0
+msgid "Prepayments"
+msgstr "Pre-pagos"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_comparison
+msgid "Previous Period"
+msgstr "Periodo Previo"
+
+#. module: account_reports
+#: model:ir.actions.client,name:account_reports.action_account_report_pnl
+msgid "Profit And Loss"
+msgstr "Ganancia y Pérdida"
+
+#. module: account_reports
+#: model:account.financial.html.report,name:account_reports.account_financial_report_profitandloss0
+#: model:ir.actions.client,name:account_reports.account_financial_html_report_action_1
+#: model:ir.ui.menu,name:account_reports.account_financial_html_report_menu_1
+msgid "Profit and Loss"
+msgstr "Ganancia y Pérdida"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_debtors0
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_receivable0
+msgid "Receivables"
+msgstr "Cuentas por Cobrar"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.account_reports_journal_dashboard_kanban_view
+msgid "Reconciliation Report"
+msgstr "Reporte de Conciliación"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_analytic_report.py:0
+#, python-format
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.view_account_financial_report_line_form
+msgid "Report Line"
+msgstr "Línea de Reporte"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.view_account_financial_report_form
+#: model_terms:ir.ui.view,arch_db:account_reports.view_account_financial_report_line_tree
+msgid "Report Lines"
+msgstr "Líneas de Reporte"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_return_investment0
+msgid "Return on investments (net profit / assets)"
+msgstr "Rendimiento de las inversiones (beneficio neto / activos)"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_comparison
+msgid "Same Period Last Year"
+msgstr "Mismo Periodo del Último Año"
+
+#. module: account_reports
+#. openerp-web
+#: code:addons/account_reports/models/account_report.py:0
+#: code:addons/account_reports/static/src/js/account_reports.js:0
+#, python-format
+msgid "Save"
+msgstr "Guardar"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__name
+msgid "Section Name"
+msgstr "Nombre de la Sección"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__sequence
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: account_reports
+#: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_st_cash_forecast0
+msgid "Short term cash forecast"
+msgstr "Previsión de efectivo a corto plazo"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_comparison
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_date_filter
+msgid "Start Date :"
+msgstr "Fecha de Inicio :"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_report_manager__summary
+msgid "Summary"
+msgstr "Resumen"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_generic_tax_report.py:0
+#: model:ir.actions.client,name:account_reports.action_account_report_gt
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report__tax_report
+#: model:ir.ui.menu,name:account_reports.menu_action_account_report_gt
+#: model_terms:ir.ui.view,arch_db:account_reports.view_move_form_vat_return
+#, python-format
+msgid "Tax Report"
+msgstr "Reporte de Impuesto"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_report_footnote__text
+msgid "Text"
+msgstr "Texto"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_date_filter
+msgid "This Month"
+msgstr "Este mes"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_date_filter
+msgid "Today"
+msgstr "Hoy"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_accounting_report.py:0
+#: code:addons/account_reports/models/account_aged_partner_balance.py:0
+#: code:addons/account_reports/models/account_cash_flow_report.py:0
+#: code:addons/account_reports/models/account_consolidated_journals.py:0
+#: code:addons/account_reports/models/account_financial_report.py:0
+#: code:addons/account_reports/models/account_general_ledger.py:0
+#: code:addons/account_reports/models/account_partner_ledger.py:0
+#: code:addons/account_reports/models/account_report_coa.py:0
+#, python-format
+msgid "Total"
+msgstr "Total"
+
+#. module: account_reports
+#: code:addons/account_reports/models/account_report_coa.py:0
+#: model:ir.actions.client,name:account_reports.action_account_report_coa
+#: model:ir.ui.menu,name:account_reports.menu_action_account_report_coa
+#, python-format
+msgid "Trial Balance"
+msgstr "Balanza de Comprobación"
+
+#. module: account_reports
+#: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__figure_type
+msgid "Type"
+msgstr "Tipo"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.line_caret_options
+msgid "View Bank Statement"
+msgstr "Vista del extracto bancario"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.line_template_general_ledger_report
+msgid "View Journal Entry"
+msgstr "Vista del asiento contable"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.line_caret_options
+msgid "View Payment"
+msgstr "Vista del pago"
+
+#. module: account_reports
+#: model_terms:ir.ui.view,arch_db:account_reports.search_template_extra_options
+msgid "With Draft Entries"
+msgstr "Con entradas borrador"

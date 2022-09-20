@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    <t t-name="stock_barcode.GroupedLineComponent" owl="1">
+        <div t-name="GroupedLineComponent" t-on-click="select"
+            class="o_barcode_line list-group-item d-flex flex-row flex-wrap"
+            t-att-data-barcode="line.product_id.barcode" t-attf-class="{{componentClasses}}">
+            <div class="o_barcode_line_summary d-flex flex-grow-1">
+                <div class="o_barcode_line_details flex-grow-1">
+                    <LineTitleComponent line="line" subline="false"/>
+                    <div name="quantity">
+                        <i class="fa fa-fw fa-cube" t-attf-class="{{nextExpected === 'quantity' ? 'o_next_expected' : ''}}"/>
+                        <span t-attf-class="o_barcode_scanner_qty font-monospace badge #{' '}">
+                            <span class="qty-done d-inline-block text-start" t-esc="env.model.IsNotSet(line) ? '?' : qtyDone"/>
+                            <span t-if="qtyDemand" t-esc="'/ ' + qtyDemand"/>
+                        </span>
+                        <span t-if="props.displayUOM" t-esc="line.product_uom_id.name"/>
+                    </div>
+                </div>
+                <button t-on-click="toggleSublines" class="o_line_button o_toggle_sublines btn btn-primary ms-2 ms-sm-4">
+                    <i t-att-class="'fa fa-2x fa-caret-' + (opened ? 'up' : 'down')"/>
+                </button>
+            </div>
+            <div class="o_sublines my-2 flex-grow-1" t-if="opened">
+                <t t-foreach="line.lines" t-as="subline" t-key="subline.virtual_id">
+                    <LineComponent line="subline" displayUOM="props.displayUOM" subline="true"/>
+                </t>
+            </div>
+        </div>
+    </t>
+
+</templates>

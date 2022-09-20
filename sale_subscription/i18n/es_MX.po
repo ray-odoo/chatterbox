@@ -1,0 +1,567 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * sale_contract
+#
+# Translators:
+# David Hernandez <davidhernandez.ctam@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo 9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-27 13:47+0000\n"
+"PO-Revision-Date: 2016-07-15 17:51+0000\n"
+"Last-Translator: David Hernandez <davidhernandez.ctam@gmail.com>\n"
+"Language-Team: Spanish (Mexico) (http://www.transifex.com/odoo/odoo-9/"
+"language/es_MX/)\n"
+"Language: es_MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__message_needaction
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__message_needaction
+msgid "Action Needed"
+msgstr "Acción Requerida"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__active
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: sale_subscription
+#: model:ir.model,name:sale_subscription.model_account_analytic_account
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__analytic_account_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__analytic_account_id
+msgid "Analytic Account"
+msgstr "Cuenta analítica"
+
+#. module: sale_subscription
+#: model:ir.actions.act_window,name:sale_subscription.sale_subscription_close_reason_wizard_action
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__close_reason_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason_wizard__close_reason_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__close_reason_id
+msgid "Close Reason"
+msgstr "Cerrar Razón"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Close Subscription"
+msgstr "Cerrar Suscripción"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/controllers/portal.py:0
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_log__category__closed
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_report__stage_category__closed
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_stage__category__closed
+#: model:sale.subscription.stage,name:sale_subscription.sale_subscription_stage_closed
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+#, python-format
+msgid "Closed"
+msgstr "Cerrada"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__company_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__company_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_line__company_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_log__company_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__company_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: sale_subscription
+#: model:ir.ui.menu,name:sale_subscription.menu_sale_subscription_config
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__country_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__country_id
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Country"
+msgstr "País"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__create_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__create_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason__create_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason_wizard__create_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_line__create_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_log__create_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard__create_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard_keep_option__create_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard_replace_option__create_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_stage__create_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__create_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_wizard__create_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_wizard_option__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__create_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__create_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason__create_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason_wizard__create_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_line__create_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard__create_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard_keep_option__create_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard_replace_option__create_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_stage__create_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__create_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_wizard__create_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_wizard_option__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__currency_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__currency_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_line__currency_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_log__currency_id
+msgid "Currency"
+msgstr "Dinero corriente"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__partner_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__partner_id
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__description
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_line__name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard_replace_option__name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_wizard_option__name
+msgid "Description"
+msgstr "Descripción"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_line__discount
+msgid "Discount (%)"
+msgstr "Descuento (%)"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_account_analytic_account__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_payment_token__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_payment_transaction__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_product_template__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_res_partner__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_line__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason_wizard__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_line__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_log__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard_keep_option__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard_replace_option__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_stage__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_wizard__display_name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_wizard_option__display_name
+msgid "Display Name"
+msgstr "Nombre desplegado"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__date_end
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "End Date"
+msgstr "Fecha final"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+msgid "Expired"
+msgstr "Expirado"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__message_follower_ids
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__message_channel_ids
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__message_partner_ids
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Socios)"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_account_analytic_account__id
+#: model:ir.model.fields,field_description:sale_subscription.field_account_move_line__id
+#: model:ir.model.fields,field_description:sale_subscription.field_payment_token__id
+#: model:ir.model.fields,field_description:sale_subscription.field_payment_transaction__id
+#: model:ir.model.fields,field_description:sale_subscription.field_product_template__id
+#: model:ir.model.fields,field_description:sale_subscription.field_res_partner__id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order__id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_line__id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason__id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason_wizard__id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_line__id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_log__id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard__id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard_keep_option__id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard_replace_option__id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_stage__id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_wizard__id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_wizard_option__id
+msgid "ID"
+msgstr "ID"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_subscription__message_needaction
+#: model:ir.model.fields,help:sale_subscription.field_sale_subscription__message_unread
+#: model:ir.model.fields,help:sale_subscription.field_sale_subscription_template__message_needaction
+#: model:ir.model.fields,help:sale_subscription.field_sale_subscription_template__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Si está marcado, hay nuevos mensajes que requieren su atención"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_product_product__recurring_invoice
+#: model:ir.model.fields,help:sale_subscription.field_product_template__recurring_invoice
+msgid ""
+"If set, confirming a sale order with this product will create a subscription"
+msgstr ""
+"Si se establece, lo que confirma una orden de venta con este producto creará "
+"una suscripción"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/controllers/portal.py:0
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_log__category__progress
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_report__stage_category__progress
+#: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_stage__category__progress
+#: model:sale.subscription.stage,name:sale_subscription.sale_subscription_stage_in_progress
+#, python-format
+msgid "In Progress"
+msgstr "En proceso"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_form
+msgid "Invoices"
+msgstr "Facturas"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__message_is_follower
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__message_is_follower
+msgid "Is Follower"
+msgstr "Es un Seguidor"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_account_analytic_account____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_account_move_line____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_payment_token____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_payment_transaction____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_product_template____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_res_partner____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_line____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason_wizard____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_line____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_log____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard_keep_option____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard_replace_option____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_stage____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_wizard____last_update
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_wizard_option____last_update
+msgid "Last Modified on"
+msgstr "Ultima modificacion realizada"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__write_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__write_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason__write_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason_wizard__write_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_line__write_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_log__write_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard__write_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard_keep_option__write_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard_replace_option__write_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_stage__write_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__write_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_wizard__write_uid
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_wizard_option__write_uid
+msgid "Last Updated by"
+msgstr "Ultima actualizacion por"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__write_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__write_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason__write_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason_wizard__write_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_line__write_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_log__write_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard__write_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard_keep_option__write_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard_replace_option__write_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_stage__write_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__write_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_wizard__write_date
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_wizard_option__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización realizada"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__message_ids
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/controllers/portal.py:0
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__name
+#, python-format
+msgid "Name"
+msgstr "Nombre"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__message_needaction_counter
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de acciones"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_subscription__message_needaction_counter
+#: model:ir.model.fields,help:sale_subscription.field_sale_subscription_template__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Número de mensajes que requieren una acción"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_subscription__message_unread_counter
+#: model:ir.model.fields,help:sale_subscription.field_sale_subscription_template__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Número de mensajes sin leer"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__pricelist_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__pricelist_id
+msgid "Pricelist"
+msgstr "Tarifa"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_line__product_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard_keep_option__name
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard_replace_option__product_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__product_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__product_ids
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_wizard_option__product_id
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Product"
+msgstr "Producto"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__categ_id
+msgid "Product Category"
+msgstr "Categoría de producto"
+
+#. module: sale_subscription
+#: model:ir.model,name:sale_subscription.model_product_template
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__product_tmpl_id
+msgid "Product Template"
+msgstr "Plantilla de producto"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_line__quantity
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard_keep_option__quantity
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard_replace_option__quantity
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__quantity
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_wizard_option__quantity
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__code
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__recurring_interval
+msgid "Repeat Every"
+msgstr "Repetir cada"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_subscription__recurring_interval
+#: model:ir.model.fields,help:sale_subscription.field_sale_subscription_template__recurring_interval
+msgid "Repeat every (Days/Week/Month/Year)"
+msgstr "Repetir cada (Días/Semana/Mes/Año)"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__activity_user_id
+msgid "Responsible"
+msgstr "Responsable"
+
+#. module: sale_subscription
+#: model:ir.model,name:sale_subscription.model_sale_order
+msgid "Sales Order"
+msgstr "Pedido de venta"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__sequence
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason__sequence
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_stage__sequence
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__date_start
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__date_start
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_wizard__date_from
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Start Date"
+msgstr "Fecha inicial"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/controllers/portal.py:0
+#: model_terms:ir.ui.view,arch_db:sale_subscription.portal_my_subscriptions
+#, python-format
+msgid "Status"
+msgstr "Status"
+
+#. module: sale_subscription
+#: model:ir.model,name:sale_subscription.model_sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_account_move_line__subscription_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_order_line__subscription_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_line__analytic_account_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_log__subscription_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard__subscription_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_wizard__subscription_id
+#: model_terms:ir.ui.view,arch_db:sale_subscription.portal_my_subscriptions
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_view_cohort
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_form
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_cohort
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_form
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Subscription"
+msgstr "Suscripción"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_subscription.py:0
+#: model:ir.actions.act_window,name:sale_subscription.sale_subscription_action
+#: model:ir.actions.act_window,name:sale_subscription.sale_subscription_action_filtered
+#: model:ir.actions.act_window,name:sale_subscription.sale_subscription_action_res_partner
+#: model:ir.model.fields,field_description:sale_subscription.field_account_analytic_account__subscription_ids
+#: model:ir.model.fields,field_description:sale_subscription.field_res_partner__subscription_count
+#: model:ir.model.fields,field_description:sale_subscription.field_res_users__subscription_count
+#: model:ir.module.category,name:sale_subscription.module_category_subscription_management
+#: model:ir.ui.menu,name:sale_subscription.menu_sale_subscription
+#: model:ir.ui.menu,name:sale_subscription.menu_sale_subscription_action
+#: model:ir.ui.menu,name:sale_subscription.menu_sale_subscription_report_pivot
+#: model:ir.ui.menu,name:sale_subscription.menu_sale_subscription_root
+#: model_terms:ir.ui.view,arch_db:sale_subscription.account_analytic_account_view_inherit_sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.portal_my_home_menu_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.portal_my_home_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.portal_my_subscriptions
+#: model_terms:ir.ui.view,arch_db:sale_subscription.product_template_view_form_recurring
+#: model_terms:ir.ui.view,arch_db:sale_subscription.res_partner_view_inherit_sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_form
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_activity
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_graph
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_pivot
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.view_sale_subscription_order_line
+#, python-format
+msgid "Subscriptions"
+msgstr "Suscripciones"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__tag_ids
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__tag_ids
+msgid "Tags"
+msgstr "Etiquetas"
+
+#. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+msgid "Template"
+msgstr "Plantilla"
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/controllers/portal.py:0
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__to_renew
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__to_renew
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_form
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_kanban
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
+#, python-format
+msgid "To Renew"
+msgstr "Para renovar"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_line__price_unit
+#: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
+msgid "Unit Price"
+msgstr "Precio unitario"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_line__uom_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_renew_wizard_replace_option__uom_id
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__product_uom
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_wizard_option__uom_id
+msgid "Unit of Measure"
+msgstr "Unidad de medida"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__message_unread
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__message_unread
+msgid "Unread Messages"
+msgstr "Mensajes sin leer"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__message_unread_counter
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de mensajes sin leer"
+
+#. module: sale_subscription
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__website_message_ids
+#: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__website_message_ids
+msgid "Website Messages"
+msgstr "Mensajes del Website"
+
+#. module: sale_subscription
+#: model:ir.model.fields,help:sale_subscription.field_sale_subscription__website_message_ids
+#: model:ir.model.fields,help:sale_subscription.field_sale_subscription_template__website_message_ids
+msgid "Website communication history"
+msgstr "Sitio Web historial de comunicación"
